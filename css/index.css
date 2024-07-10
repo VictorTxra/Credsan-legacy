@@ -1,0 +1,388 @@
+/*TAGS NATIVAS*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:  white;
+  overflow-x: hidden;
+  font-family: 'Dosis', sans-serif;
+}
+p{
+  font-size: 1.3em;
+}
+a{
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: #ffc107;
+}
+li{
+  list-style-type: none;
+  font-size: 1.3em;
+}
+header {
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+}
+footer{
+  background-color: black;
+  margin: -24px 0 0 0;
+  padding: 0;
+  color: white;
+}
+footer a{
+  color: #ffc107;
+}
+footer a:hover{
+  color: Green;
+}
+form{
+  padding: 0.5em;
+  border: 2px solid #CCC;
+  border-radius: 1em;
+}
+form div + div {
+  margin-top: 0.5em;
+}
+label {
+  display: inline-block;
+  text-align: right;
+}
+input, textarea {
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border-radius: 10px;
+  padding: 2px 10px 2px 10px;
+}
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+/*CLASSES CRIADAS*/
+.menu{
+  background-color: white;
+  padding: 0;
+  border-bottom: 1px solid #c9c9c9;
+}
+.img-logo{
+  padding: 10px;
+  margin: 0 400px 0 60px
+  
+}
+.img-logo:hover {
+  transition: all 2s;
+  transform: scale(1.1);
+}
+.slogan{
+  width: 100%;
+  height: 100%;
+  padding-top: 43px;
+}
+.margem{
+  margin: 0 50px 0 650px
+}
+.content-color{
+ background: url(../img/fundo.png) no-repeat right top;
+ color: white;
+}
+.content-color1{
+ background: url(../img/fundo.png) no-repeat left bottom;
+ color: white;
+}
+.content-color2{
+  background: url(../img/fundo2.png) no-repeat;
+  color: black;
+}
+.w-float{
+  position: fixed;
+  right: 150px;
+  z-index: 50;
+  bottom: 10px;
+}
+.w-float:hover{
+  transform: scale(1.1);
+}
+.f-float{
+  position: fixed;
+  right: 80px;
+  z-index: 50;
+  bottom: 10px;
+}
+.f-float:hover{
+  transform: scale(1.1);
+}
+.i-float{
+  position: fixed;
+  right: 10px;
+  z-index: 50;
+  bottom: 10px;
+}
+.i-float:hover{
+  transform: scale(1.1);
+}
+.arrow-float{
+  position: fixed;
+  right: 16px;
+  z-index: 50;
+  bottom: 27px;
+  transform: scale(2.2);
+}
+.arrow-float:hover{
+  transform: scale(2);
+}
+.hamburger{
+  padding-right: 20px;
+}
+.card2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  margin-top: 40px !important;
+  margin-bottom: 60px  !important;
+}
+.maps{
+  width: 100%;
+}
+.desaparece{
+  display:none;
+}
+.aparece{
+  display: flex;
+
+}
+
+
+/*EDITADOS DO BOOTSTRAP*/
+.nav-item{
+  margin: 0 30px 0 0;
+}
+.card-body{
+  color: black;
+  display: contents;
+}
+.card{
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+.container{
+  background-color: white;
+}
+.navbar-nav{
+  font-size: 20px;
+}
+.card-img{
+  opacity: 40%;
+}
+.card-img-overlay{
+  padding: 0.5em;
+}
+
+/*Medias (responsivo)*/
+@media only screen and (min-width: 1521px){
+  .card-img-overlay{
+    font-size: 1em;
+  }
+  .font-missao-visao{
+    font-size: 1.4em;
+  }
+}
+@media only screen and (max-width: 1520px){
+  .card-img-overlay{
+    font-size: 0.9em;
+  }
+  .font-missao-visao{
+    font-size: 1.3em;
+  }
+  
+}
+@media only screen and (max-width: 1420px){
+  .card-img-overlay{
+    font-size: 0.9em;
+  }
+  .font-missao-visao{
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 1378px){
+  .img-logo{
+    margin: 0 330px 0 30px
+  }
+  .card-img-overlay{
+    font-size: 0.8em;
+  }
+  .font-missao-visao{
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 1284px){
+  .img-logo{
+    margin: 0 250px 0 10px
+  }
+}
+@media only screen and (max-width: 1181px){
+  .img-logo{
+    margin: 0 150px 0 0px
+  }
+  .card-img-overlay{
+    font-size: 0.7em;
+  }
+  .font-missao-visao{
+    font-size: 0.9em;
+  }
+}
+@media only screen and (max-width: 1071px){
+  .img-logo{
+    margin: 0 50px 0 0px
+  }
+  .card-img-overlay{
+    font-size: 0.6em;
+  }
+  .font-missao-visao{
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 992px){
+  .nav-item{
+    margin: 0 0px 0 10px;
+  }
+  .card {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .card2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: 10px !important;
+    margin-bottom: 15px  !important;
+  }
+  .content-color2{
+    background: url() white;
+    color: black;
+  }
+  .card-img-overlay{
+    font-size: 1em;
+  }
+  .font-size-valores{
+    font-size: 1.5em ;
+  }
+
+}
+@media only screen and (max-width: 767px){
+  .font-missao-visao{
+    font-size: 1.9em;
+  }
+}
+@media only screen and (max-width: 672px){
+  .font-missao-visao{
+    font-size: 1.5em;
+  }
+  .font-size-valores{
+    font-size: 1.3em ;
+  }
+
+}
+@media only screen and (max-width: 593px){
+  .font-missao-visao{
+    font-size: 1.4em;
+  }
+  .font-size-valores{
+    font-size: 1.1em ;
+  }
+  .w-float{
+    
+    width: 10%;
+    position: fixed;
+    right: 10px;
+    z-index: 50;
+    bottom: 65px;
+  }
+  .f-float{
+    width: 10%;
+    position: fixed;
+    right: 10px;
+    z-index: 50;
+    bottom: 10px;
+  }
+  .i-float{
+    width: 10%;
+    position: fixed;
+    right: 65px;
+    z-index: 50;
+    bottom: 10px;
+  }
+
+}
+@media only screen and (max-width: 513px){
+  .font-missao-visao{
+    font-size: 1.3em;
+  }
+  .font-size-valores{
+    font-size: 1em ;
+  }
+
+}
+@media only screen and (max-width: 400px){
+  .font-missao-visao{
+    font-size: 1em;
+  }
+  .font-size-valores{
+    font-size: 0.75em ;
+  }
+  .w-float{
+    width: 10.5%;
+    position: fixed;
+    right: 15px;
+    z-index: 50;
+    bottom: 50px;
+  }
+  .f-float{
+    width: 10.5%;
+    position: fixed;
+    right: 65px;
+    z-index: 50;
+    bottom: 50px;
+  }
+  .i-float{
+    width: 10%;
+    position: fixed;
+    right: 115px;
+    z-index: 50;
+    bottom: 50px;
+  }
+
+
+}
+@media only screen and (max-width: 321px){
+  .font-missao-visao{
+    font-size: 0.8em;
+  }
+  .font-size-valores{
+    font-size: 0.62em ;
+  }
+  
+}
+
+
+/*# sourceMappingURL=index.css.map */

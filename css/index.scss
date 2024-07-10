@@ -1,0 +1,83 @@
+$Dourado:  #ffc107;
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $Dourado ;
+    overflow-x: hidden;
+}
+main{
+    background-color: $Dourado ;
+}
+header{
+    background-color: white;
+}
+.img-cabecalho{
+    display: flex;
+}
+.img-logo{
+    width: 20%;
+}
+
+  
+
+  a{
+    text-decoration: overline;
+      background-color: transparent;
+      color: black;
+  } &:hover{
+    text-decoration: none;
+    color: #ffc107;
+  }
+  
+  header {
+    background-color: white;
+    border-radius: 0px 0 140px 0;
+  }
+  
+  footer{
+    background-color: white;
+  }
+  
+  .img-cabecalho {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 95%;
+    left: 45px;
+    position: relative;
+  }
+  
+  .img-logo {
+    width: 20%;
+  }
+  .container{
+    background-color: white;
+  }
+  .banner-home{
+    background: url(../img/punho-home.png), no-repeat;
+    top: -24px;
+    border-radius: 0px 160px 0 0;
+  }
+  .slogan{
+    display: flex;
+    z-index: 2;
+    position: relative;
+    
+  
+  }
+  footer{
+    background-color: white;
+    margin: -24px 0 0 0;
+    height: 80px;
+    padding: 0;
+  }
+  .navbar-nav{
+    font-size: 20px;
+  }
+  /*# sourceMappingURL=index.css.map */

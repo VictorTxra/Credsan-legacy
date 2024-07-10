@@ -1,0 +1,19 @@
+Var ITBI = 0,02;
+var FUNREJUS = 0,002;
+Var Certidao = 150,00;
+Escritura = 708,29
+Registro = 613,09
+var valor_informado = input;
+
+
+Function Calculo_Escritura()
+
+If (valor_informado > 0){
+ 	valor_informado = valor_informado * ITBI;
+	valor_informado = valor_informado;
+	valor_informado = valor_informado * Funrejus;
+	valor_informado 
+}
+
+
+calculo_escritura = (valor_informado * itbi)+(valor_informado * funrejus) + certidao + escritura + registro;
